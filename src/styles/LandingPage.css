@@ -1,0 +1,296 @@
+.landing_hero {
+    background-color: #fff;
+    /* display: flex; */
+}
+
+.first_section {
+    display: block;
+    height: 550px;
+    width: 100%;
+    /* background-color: rgb(218, 215, 215); */
+}
+
+.first_section .left_container {
+    float: left;
+    margin-left: 170px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: var(--black);
+    padding-top: 150px;
+} 
+
+.first_section .left_container p {
+    font-size: 18px;
+    /* margin-top: 150px; */
+}
+
+.first_section .left_container .first_section_header {
+    font-size: 55px;
+    font-weight: 900;
+    margin-top: 30px;
+    
+}
+
+.first_section .left_container .shop_now_button {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 23px;
+    background-color: var(--black);
+    /* height: 40px;
+    width: 150px; */
+    padding: 15px 25px;
+    margin-top: 30px;
+}
+
+.first_section .left_container .shop_now_button:hover {
+    letter-spacing: .1rem;
+}
+
+.first_section figure {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.first_section figure img {
+    float: left;
+    width: 350px;
+    height: 250px;
+    margin-top: 150px;
+    margin-left: 60px;
+   
+}
+
+
+
+
+.second_section {
+    width: 100%;
+    /* height: 850px; */
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: var(--black);
+}
+
+.second_section .card_div {
+    width: 1000px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--black);
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+/* .second_section .card_div .card {
+    float: left; 
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: var(--black);
+} */
+
+
+.second_section .card_div .card  a{
+    /* color: var(--black); */
+    color: #fff;
+    float: left;
+    width: 150px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 50px;
+    /* background-color: var(--black); */
+    background-color: beige;
+    padding: 106px 56px;
+
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: 110px;
+}
+
+/* a.box_feat:hover {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-box-shadow: 0px 3px 0px 0px #ebedef;
+    -moz-box-shadow: 0px 3px 0px 0px #ebedef;
+} */
+
+.clean_cat_text {
+    background: url('../asset/dog10.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 10% 0;
+}
+
+.feed_cat_text {
+    background: url('../asset/dog18.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 10% 0;
+}
+
+.housing_cat_text {
+    background: url('../asset/dog18.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 10% 0;
+}
+
+.pets_cat_text {
+    background: url('../asset/dog18.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 10% 0;
+}
+
+.services_cat_text {
+    background: url('../asset/dog18.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 10% 0;
+}
+
+.second_section .card_div .card  a:hover {
+    letter-spacing: 1px;
+    color: var(--black);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+    /* -webkit-box-shadow: 0px 3px 0px 0px #ebedef;
+    -moz-box-shadow: 0px 3px 0px 0px #ebedef; */
+    -webkit-box-shadow: var(--black);
+    -moz-box-shadow: var(--black);
+    box-shadow: var(--black);
+}
+
+
+
+.third_section {
+    width: 100%;
+    display: block;
+    padding-top: 90px;
+}
+
+.third_section .third_section_header {
+    font-size: 30px;
+    text-align: center;
+}
+
+.third_section .card_div {
+    width: 1100px;
+    height: 550px;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+.third_section .card_div .card {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    margin-right: 50px;
+    /* background-color: rgb(218, 215, 215); */
+}
+
+.third_section .card_div .card figure img {
+    width: 300px;
+    height: 250px;
+}
+
+.third_section .card_div .card figure img:hover {
+    width: 310px;
+}
+
+.third_section .card_div .card .card_wrapper {
+    display: block;
+    padding-left: 40px;
+    
+}
+
+.third_section .card_div .card .card_wrapper .item_title {
+    display: block;
+    /* clear: both; */
+    float: left;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.third_section .card_div .card .card_wrapper .item_price {
+    float: left;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+.third_section .card_div .card .card_wrapper .add_to_cart_button {
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    background-color: var(--black);
+    /* height: 40px;
+    width: 120px; */
+    padding: 12px 20px;
+    margin-left: 80px;
+}
+
+.third_section .card_div .card .card_wrapper .add_to_cart_button:hover {
+    letter-spacing: .1rem;
+}
+
+.fourth_section {
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(218, 215, 215);
+    margin-top: 220px;
+
+}
+
+.fourth_section .subscribe_header {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 90px;
+    text-align: center;
+
+}
+
+.fourth_section .subscribe_content {
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center
+
+}
+
+.fourth_section .input_field {
+    margin-top: 140px;
+    text-align: center;
+
+}
+
+.fourth_section .input_field .subscribe_email {
+    height: 65px;
+    width: 370px;
+}
+
+.fourth_section .input_field .subscribe_button {
+    font-size: 20px;
+    color: #fff;
+    background-color: black;
+    height: 64px;
+    width: 120px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+}

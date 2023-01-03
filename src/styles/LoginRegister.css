@@ -1,0 +1,111 @@
+.login_register_landing_hero {
+    background-color: #fff;
+    /* display: flex; */
+    padding-top: 0px;
+
+    margin-bottom: 45px;
+}
+
+.login_register_landing_hero .my_account_header {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #666;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    padding-top: 25px;
+    padding-bottom: auto;
+}
+
+.login_register_landing_hero .first_section {
+    margin-top: 70px;
+    margin-left: 25px;
+    width: 480px;
+    /* height: 800px; */
+    float: left;
+    /* background-color: black; */
+}
+
+.login_register_landing_hero .first_section fieldset{
+    border: none;
+    text-align: left;
+}
+
+.login_register_landing_hero .second_section {
+    margin-top: 30px;
+    margin-right: 25px;
+    width: 480px;
+    /* height: 800px; */
+    float: left;
+    margin-left: 30px;
+    background-color: #fff;
+    /* background-color: #27ae60; */
+    
+}
+
+.login_register_landing_hero .second_section fieldset{
+    text-align: left;
+    border: none;
+}
+
+.login_register_landing_hero .head_text {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.login_register_landing_hero .label {
+    font-size: 15px;
+    color: rgb(156, 156, 156);
+    padding-bottom: 50px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.login_register_landing_hero .label span {
+    color: rgb(203, 68, 68);
+}
+
+.login_register_landing_hero .input {
+    width: 450px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #000000;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.login_register_landing_hero .forget_password {
+    font-size: 15px;
+    color: rgb(103, 101, 101);
+    margin-bottom: 20px;
+}
+
+.login_register_landing_hero .forget_password:hover {
+    letter-spacing: .1rem;
+}
+
+.login_register_landing_hero .btn {
+    font-size: 15px;
+    font-weight: 700;
+    border: 2px solid;
+    background-color: #fff;
+    border-radius: 50px;
+    border-color: #000000;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    opacity: 0.8;
+    /* margin-top: 20px;
+    margin-bottom: 40px; */
+}
+
+.login_register_landing_hero .btn:hover {
+    letter-spacing: .1rem;
+}

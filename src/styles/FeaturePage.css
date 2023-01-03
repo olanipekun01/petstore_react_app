@@ -1,0 +1,100 @@
+.feature_page_landing_hero {
+    background-color: #fff;
+    /* display: flex; */
+    margin-bottom: 40px;
+}
+
+.feature_section {
+    width: 100%;
+    display: block;
+    padding-top: 0px;
+    clear: both;
+    
+}
+
+.feature_section .feature_section_header {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #666;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    padding-top: 25px;
+    padding-bottom: auto;
+}
+
+/* .shop_section .shop_section_sub_header {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+} */
+
+.feature_section .card_div {
+    width: 1100px;
+    /* height: 550px; */
+    margin-left: 70px;
+    margin-right: auto;
+}
+
+.feature_section .card_div .card {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 50px;
+    /* background-color: rgb(218, 215, 215); */
+}
+
+.feature_section .card_div .card figure {
+    margin-left: 0;
+}
+
+.feature_section .card_div .card figure img {
+    width: 250px;
+    height: 200px;
+}
+
+.feature_section .card_div .card figure img:hover {
+    width: 260px;
+}
+
+.feature_section .card_div .card .card_wrapper {
+    display: block;
+    padding-left: 10px;
+    
+}
+
+.feature_section .card_div .card .card_wrapper .item_title {
+    display: block;
+    /* clear: both; */
+    float: left;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.feature_section .card_div .card .card_wrapper .item_price {
+    float: left;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.feature_section .card_div .card .card_wrapper .add_to_cart_button {
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    background-color: var(--black);
+    /* height: 40px;
+    width: 120px; */
+    padding: 12px 20px;
+    margin-left: 80px;
+    text-transform: lowercase;
+}
+
+.feature_section .card_div .card .card_wrapper .add_to_cart_button:hover {
+    letter-spacing: .1rem;
+}

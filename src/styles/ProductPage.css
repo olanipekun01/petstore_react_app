@@ -1,0 +1,206 @@
+.product_page_landing_hero {
+    background-color: #fff;
+    /* display: flex; */
+    padding-top: 90px;
+}
+
+.product_page_landing_hero .first_section {
+    width: 550px;
+    float: left;
+}
+
+.product_page_landing_hero .first_section figure {
+    margin-left: 50px;
+}
+
+.product_page_landing_hero .first_section figure .product_image {
+    width: 450px;
+    height: 550px;
+    margin-top: 0;
+}
+
+.product_page_landing_hero .first_section figure .other_product_image {
+    margin-top: 0px;
+    width: 450px;
+}
+
+.product_page_landing_hero .first_section figure .other_product_image .sub_img {
+    width: 92px;
+    height: 80px;
+    float: left;
+    margin-right: -45px;
+    /* margin-bottom: 0px; */
+    margin-top: 10px;
+}
+
+.product_page_landing_hero .first_section figure .other_product_image .sub_img:hover {
+    width: 105px;
+}
+
+.product_page_landing_hero .second_section {
+    float: left;
+    margin-left: 30px;
+    width: 320px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.product_page_landing_hero .second_section .petstore_header {
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 120px;
+}
+
+.product_page_landing_hero .second_section .product_header_name {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+.product_page_landing_hero .second_section .product_price {
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-left: 120px;
+}
+
+.product_page_landing_hero .second_section .shipping_note {
+    font-size: 10px;
+    clear: both;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.product_page_landing_hero .second_section .shipping_note a {
+    color: red;
+}
+
+.product_page_landing_hero .second_section .product_quantity {
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.product_page_landing_hero .second_section .product_quantity .product_quantity_input {
+    width: 180px;
+    height: 28px;
+    margin-left: 10px;
+    background-color: rgb(216, 216, 216);
+}
+
+
+.product_page_landing_hero .second_section .btn {
+    width: 320px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 900;
+    margin-top: 10px;
+} 
+
+.product_page_landing_hero .second_section .btn:hover {
+    letter-spacing: .1rem;
+}
+
+.product_page_landing_hero .second_section .add_to_cart_button {
+    background-color: var(--black);
+    color: #fff;
+
+}
+
+.product_page_landing_hero .second_section .buy_it_now_button {
+    background-color: black;
+    color: #fff;
+}
+
+.product_page_landing_hero .second_section .product_description {
+    margin-top: 40px;
+    font-size: 12px;
+    margin-left: -10px;
+}
+
+
+
+.third_section {
+    width: 100%;
+    display: block;
+    padding-top: 40px;
+    clear: both;
+}
+
+.third_section .third_section_header {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* .shop_section .shop_section_sub_header {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+} */
+
+.third_section .card_div {
+    width: 1100px;
+    height: 550px;
+    margin-left: 120px;
+    margin-right: auto;
+}
+
+.third_section .card_div .card {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: -20px;
+    /* background-color: rgb(218, 215, 215); */
+}
+
+.third_section .card_div .card figure img {
+    width: 250px;
+    height: 200px;
+}
+
+.third_section .card_div .card figure img:hover {
+    width: 256px;
+}
+
+.third_section .card_div .card .card_wrapper {
+    display: block;
+    padding-left: 40px;
+    
+}
+
+.third_section .card_div .card .card_wrapper .item_title {
+    display: block;
+    /* clear: both; */
+    float: left;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.third_section .card_div .card .card_wrapper .item_price {
+    float: left;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.third_section .card_div .card .card_wrapper .add_to_cart_button {
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    background-color: var(--black);
+    /* height: 40px;
+    width: 120px; */
+    padding: 12px 20px;
+    margin-left: 80px;
+}
+
+.third_section .card_div .card .card_wrapper .add_to_cart_button:hover {
+    letter-spacing: .1rem;
+}

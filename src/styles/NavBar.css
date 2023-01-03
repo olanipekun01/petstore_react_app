@@ -1,0 +1,43 @@
+.drop_down{
+    /* width: 90px; */
+    background-color: var(--black);
+    color: #fff;
+    left: 565px;
+    position: absolute;
+    /* display: none; */
+}
+
+.drop_down.active {
+    display: inline-block;
+}
+
+.drop_down ul {
+    text-decoration: none;
+}
+
+.drop_down ul li {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 23px;
+    padding: 0px 10px;
+}
+
+.drop_down ul li:hover {
+    letter-spacing: .1rem;
+}
+
+.drop_down ul li a {
+    color: #fff;
+}
+
+.drop_down ul li a:hover {
+    color: red;
+}
+
+
+@media screen and (min-width: 1450px) {
+    .drop_down {
+        left: 625px;
+    }
+}
